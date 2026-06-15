@@ -1,0 +1,21 @@
+{
+  "name": "traru-studio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Panel de gestión de catálogo de Traru Cerámica (Sanity Studio)",
+  "type": "module",
+  "scripts": {
+    "dev": "sanity dev",
+    "start": "sanity start",
+    "build": "sanity build",
+    "deploy": "sanity deploy",
+    "deploy-graphql": "sanity graphql deploy"
+  },
+  "dependencies": {
+    "@sanity/vision": "^5.27.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "sanity": "^5.27.0",
+    "styled-components": "^6.4.2"
+  }
+}

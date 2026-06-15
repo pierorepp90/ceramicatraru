@@ -1,0 +1,22 @@
+# Dependencias
+node_modules/
+traru-studio/node_modules/
+
+# Sanity (build local del Studio)
+traru-studio/dist/
+.sanity/
+
+# Artefactos locales de verificación
+.playwright-mcp/
+verify-*.jpeg
+verify-*.png
+
+# Herramientas locales (no son parte del sitio)
+.remember/
+.claude/
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
