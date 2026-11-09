@@ -4,176 +4,53 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Clases — Traru Cerámica</title>
-  <meta name="description" content="Clases privadas de cerámica en torno y modelado, en grupos de cuatro. Material y cocción incluidos. City Bell, La Plata." />
+  <meta name="description" content="Clases regulares de torno alfarero y modelado manual en City Bell, La Plata." />
   <link rel="canonical" href="https://ceramicatraru.com/clases.html" />
   <meta property="og:title" content="Clases — Traru Cerámica" />
-  <meta property="og:description" content="Clases privadas de cerámica en grupos de cuatro. Material y cocción incluidos." />
+  <meta property="og:description" content="Clases regulares de torno alfarero y modelado manual en City Bell, La Plata." />
   <meta property="og:url" content="https://ceramicatraru.com/clases.html" />
   <meta property="og:type" content="website" />
-
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
-
-  <link rel="stylesheet" href="styles.css?v=4" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=5" />
 </head>
 <body>
-
-  <!-- NAV (idéntico en todas las páginas; cambia sólo aria-current="page") -->
-  <header class="nav-wrap">
-    <nav class="nav glass" aria-label="Principal">
-      <a href="index.html" class="brand" aria-label="Traru — inicio">
-        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
-          <ellipse cx="20" cy="14" rx="9" ry="3" fill="none" stroke="currentColor" stroke-width="1.2"/>
-          <path d="M11 14 C 11 26, 14 32, 20 33 C 26 32, 29 26, 29 14" fill="none" stroke="currentColor" stroke-width="1.2"/>
-          <path d="M14 19 Q 20 21 26 19" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.6"/>
-        </svg>
-        <span class="brand-text">
-          <span class="brand-name">Traru</span>
-          <span class="brand-sub">cerámica</span>
-        </span>
-      </a>
-
-      <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="Abrir menú">
-        <span class="nav-toggle-bar"></span>
-        <span class="nav-toggle-bar"></span>
-      </button>
-
-      <ul class="nav-links" id="navLinks">
-        <li><a href="nosotros.html">Nosotros</a></li>
-        <li><a href="catalogo.html">Catálogo</a></li>
+  <header class="cabecera">
+    <a class="marca" href="index.html">Traru <span>cerámica</span></a>
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="catalogo.html">Piezas</a></li>
         <li><a href="clases.html" aria-current="page">Clases</a></li>
+        <li><a href="pastas.html">Pastas</a></li>
         <li><a href="contacto.html">Contacto</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- ENCABEZADO -->
-  <section class="page-head">
-    <div class="container narrow">
-      <span class="eyebrow center">Clases privadas</span>
-      <h1 class="display-sm">Aprendé el oficio en<br/>grupos <em>de cuatro</em></h1>
-      <p class="lede">
-        El taller abre cuatro cupos por turno. Trabajamos torno y modelado manual
-        en sesiones de 2 horas y media; el material y la cocción están incluidos.
-      </p>
+  <main class="pagina">
+    <h1>Clases regulares</h1>
+    <div class="cuadros">
+      <div class="cuadro"><h2>Torno alfarero</h2></div>
+      <div class="cuadro"><h2>Modelado manual</h2></div>
     </div>
-  </section>
-
-  <!-- ESTUDIO / CLASES -->
-  <section id="estudio" class="estudio">
-    <div class="container estudio-grid">
-      <div class="estudio-visual reveal" aria-hidden="true">
-        <div class="frame glass">
-          <svg viewBox="0 0 400 480" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <linearGradient id="wheelClay" x1="0" x2="0" y1="0" y2="1">
-                <stop offset="0%" stop-color="#D38C58"/>
-                <stop offset="100%" stop-color="#8A4520"/>
-              </linearGradient>
-            </defs>
-            <!-- wheel -->
-            <ellipse cx="200" cy="380" rx="160" ry="28" fill="#2A1208"/>
-            <ellipse cx="200" cy="370" rx="160" ry="28" fill="#4A2818"/>
-            <ellipse cx="200" cy="368" rx="150" ry="22" fill="#6B3A22"/>
-            <!-- clay being thrown -->
-            <path d="M150 370
-                     C 145 320, 140 280, 155 240
-                     C 170 200, 185 195, 200 195
-                     C 215 195, 230 200, 245 240
-                     C 260 280, 255 320, 250 370 Z"
-                  fill="url(#wheelClay)"/>
-            <ellipse cx="200" cy="195" rx="45" ry="8" fill="#3A1B0A"/>
-            <!-- hand suggestion -->
-            <path d="M120 230 C 130 210, 150 205, 170 215 C 175 220, 175 230, 170 240"
-                  fill="none" stroke="#3A2418" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
-            <path d="M280 230 C 270 210, 250 205, 230 215 C 225 220, 225 230, 230 240"
-                  fill="none" stroke="#3A2418" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
-            <!-- water drops -->
-            <circle cx="190" cy="180" r="2" fill="#7BB6D6" opacity="0.7"/>
-            <circle cx="210" cy="175" r="1.5" fill="#7BB6D6" opacity="0.6"/>
-            <circle cx="200" cy="170" r="1.2" fill="#7BB6D6" opacity="0.5"/>
-          </svg>
-        </div>
-      </div>
-
-      <div class="estudio-copy reveal">
-        <span class="eyebrow">Niveles</span>
-        <h2 class="display-sm">Del centrado a la<br/>serie <em>propia</em></h2>
-        <p>
-          Cada camino arranca donde estés. Empezamos por dominar el barro y la
-          respiración del torno, y avanzamos hacia formas y series propias.
-        </p>
-        <ul class="estudio-list">
-          <li>
-            <span class="check" aria-hidden="true"></span>
-            <div><strong>Iniciación</strong> — 4 sesiones · centrado, levantamiento, retorneado, esmalte</div>
-          </li>
-          <li>
-            <span class="check" aria-hidden="true"></span>
-            <div><strong>Nivel intermedio</strong> — 8 sesiones · seriación, formas cerradas y abiertas, encastres y técnicas avanzadas</div>
-          </li>
-          <li>
-            <span class="check" aria-hidden="true"></span>
-            <div><strong>Sesión privada</strong> — 1 a 1, agenda flexible</div>
-          </li>
-        </ul>
-        <a href="contacto.html" class="btn btn-solid">
-          <span>Reservar primera clase</span>
-          <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </a>
-      </div>
+    <div class="tras-cuadros">
+      <p>Escribinos para conocer horarios y precios.</p>
+      <a class="boton" href="https://wa.me/5492216399028?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20las%20clases%20regulares." target="_blank" rel="noopener">Escribir por WhatsApp</a>
     </div>
-  </section>
+  </main>
 
-  <!-- FOOTER (idéntico en todas las páginas) -->
-  <footer class="footer">
-    <div class="container footer-grid">
-      <div>
-        <a href="index.html" class="brand brand-foot">
-          <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
-            <ellipse cx="20" cy="14" rx="9" ry="3" fill="none" stroke="currentColor" stroke-width="1.2"/>
-            <path d="M11 14 C 11 26, 14 32, 20 33 C 26 32, 29 26, 29 14" fill="none" stroke="currentColor" stroke-width="1.2"/>
-          </svg>
-          <span class="brand-text">
-            <span class="brand-name">Traru</span>
-            <span class="brand-sub">cerámica viva</span>
-          </span>
-        </a>
-        <p class="footer-note">Taller independiente en City Bell. Cada pieza, una decisión.</p>
+  <footer class="pie">
+    <div class="pie-dentro">
+      <p class="pie-nombre">Traru Cerámica</p>
+      <div class="pie-datos">
+        <span>Calle 476 N° 735, City Bell, La Plata</span>
+        <a href="https://wa.me/5492216399028" target="_blank" rel="noopener">+54 9 221 639 9028</a>
+        <a href="mailto:durante_3@gmail.com">durante_3@gmail.com</a>
       </div>
-      <div>
-        <h4>Taller</h4>
-        <ul>
-          <li><a href="nosotros.html">Nosotros</a></li>
-          <li><a href="clases.html">Clases</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Comprar</h4>
-        <ul>
-          <li><a href="catalogo.html">Colección actual</a></li>
-          <li><a href="contacto.html">Pedidos a medida</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Contacto</h4>
-        <ul>
-          <li>Calle 476 N° 735, City Bell</li>
-          <li>La Plata, Buenos Aires</li>
-          <li><a href="mailto:durante_3@gmail.com">durante_3@gmail.com</a></li>
-          <li><a href="https://wa.me/5492216399028" target="_blank" rel="noopener">+54 9 221 639 9028</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="container footer-bot">
-      <span>© 2026 Traru Cerámica</span>
-      <span>Hecho con barro, agua y fuego.</span>
+      <small>© 2026 Traru Cerámica</small>
     </div>
   </footer>
-
-  <script src="script.js?v=4"></script>
 </body>
 </html>
