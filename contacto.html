@@ -4,190 +4,56 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contacto — Traru Cerámica</title>
-  <meta name="description" content="Visitá el taller de Traru en City Bell, La Plata, o escribinos por WhatsApp y correo. Agendá una visita o consultá por un pedido a medida." />
+  <meta name="description" content="Escribile a Traru Cerámica por WhatsApp o correo, en City Bell, La Plata." />
   <link rel="canonical" href="https://ceramicatraru.com/contacto.html" />
   <meta property="og:title" content="Contacto — Traru Cerámica" />
-  <meta property="og:description" content="Agendá una visita al taller en City Bell o consultá por un pedido a medida." />
+  <meta property="og:description" content="Escribile a Traru Cerámica por WhatsApp o correo, en City Bell, La Plata." />
   <meta property="og:url" content="https://ceramicatraru.com/contacto.html" />
   <meta property="og:type" content="website" />
-
+  <meta property="og:image" content="https://ceramicatraru.com/fotos/compartir.jpg" />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
-
-  <link rel="stylesheet" href="styles.css?v=4" />
+  <link rel="stylesheet" href="styles.css?v=5" />
 </head>
 <body>
-
-  <!-- NAV (idéntico en todas las páginas; cambia sólo aria-current="page") -->
-  <header class="nav-wrap">
-    <nav class="nav glass" aria-label="Principal">
-      <a href="index.html" class="brand" aria-label="Traru — inicio">
-        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
-          <ellipse cx="20" cy="14" rx="9" ry="3" fill="none" stroke="currentColor" stroke-width="1.2"/>
-          <path d="M11 14 C 11 26, 14 32, 20 33 C 26 32, 29 26, 29 14" fill="none" stroke="currentColor" stroke-width="1.2"/>
-          <path d="M14 19 Q 20 21 26 19" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.6"/>
-        </svg>
-        <span class="brand-text">
-          <span class="brand-name">Traru</span>
-          <span class="brand-sub">cerámica</span>
-        </span>
-      </a>
-
-      <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="Abrir menú">
-        <span class="nav-toggle-bar"></span>
-        <span class="nav-toggle-bar"></span>
-      </button>
-
-      <ul class="nav-links" id="navLinks">
-        <li><a href="nosotros.html">Nosotros</a></li>
-        <li><a href="catalogo.html">Catálogo</a></li>
+  <header class="cabecera">
+    <a class="marca" href="index.html"><img class="logo" src="logo.svg" alt="" width="36" height="36" />Traru <span>cerámica</span></a>
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="catalogo.html">Piezas</a></li>
         <li><a href="clases.html">Clases</a></li>
+        <li><a href="pastas.html">Pastas</a></li>
         <li><a href="contacto.html" aria-current="page">Contacto</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- ENCABEZADO -->
-  <section class="page-head">
-    <div class="container narrow">
-      <span class="eyebrow center">Visitá el taller</span>
-      <h1 class="display-sm">Agendá tu visita.<br/>Te recibimos <em>con calma</em>.</h1>
-      <p class="lede">
-        Visitas privadas al taller los jueves y viernes. Te mostramos la colección
-        actual, el horno y conversamos sobre pedidos a medida.
-      </p>
-    </div>
-  </section>
-
-  <!-- CONTACTO -->
-  <section id="cita" class="cita">
-    <div class="container">
-      <div class="cita-card glass reveal">
-        <div class="cita-copy">
-          <span class="eyebrow">Datos de contacto</span>
-          <h2 class="display-sm">Escribinos o<br/><em>pasá a saludar</em>.</h2>
-          <p>
-            Una hora aproximadamente, sin compromiso. Si preferís, escribinos
-            directo por WhatsApp y coordinamos.
-          </p>
-          <ul class="cita-detail">
-            <li>
-              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="10" r="3" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
-              <a class="contact-link" href="https://www.google.com/maps/search/?api=1&amp;query=Calle+476+735+City+Bell+La+Plata+Buenos+Aires" target="_blank" rel="noopener">Calle 476 N° 735, entre 14C y 15 — City Bell, La Plata</a>
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-              <span>Jue – Vie · 10:00 a 14:00</span>
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
-              <a class="contact-link" href="https://wa.me/5492216399028" target="_blank" rel="noopener">+54 9 221 639 9028</a>
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><rect x="3" y="6" width="18" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M3 8l9 6 9-6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
-              <a class="contact-link" href="mailto:durante_3@gmail.com">durante_3@gmail.com</a>
-            </li>
-          </ul>
-        </div>
-
-        <form class="cita-form" id="citaForm" action="https://formsubmit.co/durante_3@gmail.com" method="POST" novalidate>
-          <!-- FormSubmit config -->
-          <input type="hidden" name="_subject" value="Nueva solicitud de cita — Traru Cerámica" />
-          <input type="hidden" name="_template" value="table" />
-          <input type="hidden" name="_captcha" value="false" />
-          <input type="hidden" name="_next" value="https://ceramicatraru.com/contacto.html?enviado=1" />
-          <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;" />
-
-          <div class="field">
-            <label for="f-name">Nombre</label>
-            <input id="f-name" name="Nombre" type="text" required autocomplete="name" />
-          </div>
-          <div class="field">
-            <label for="f-email">Correo</label>
-            <input id="f-email" name="email" type="email" required autocomplete="email" />
-          </div>
-          <div class="row">
-            <div class="field">
-              <label for="f-date">Fecha preferida</label>
-              <input id="f-date" name="Fecha preferida" type="date" required />
-            </div>
-            <div class="field">
-              <label for="f-intent">Motivo</label>
-              <select id="f-intent" name="Motivo" required>
-                <option value="">Elegí…</option>
-                <option>Visita al taller</option>
-                <option>Comprar una pieza</option>
-                <option>Pedido a medida</option>
-                <option>Reservar una clase</option>
-              </select>
-            </div>
-          </div>
-          <div class="field">
-            <label for="f-msg">Mensaje (opcional)</label>
-            <textarea id="f-msg" name="Mensaje" rows="3" placeholder="Contanos qué te trae al taller…"></textarea>
-          </div>
-          <button class="btn btn-solid btn-block" type="submit" id="citaSubmit">
-            <span>Enviar solicitud</span>
-            <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </button>
-          <p class="form-foot">Respondemos en menos de 24 horas. Tus datos no se ceden a terceros.</p>
-        </form>
+  <main class="pagina">
+    <div class="intro">
+      <h1>Escribinos</h1>
+      <form class="mensaje" action="https://wa.me/5492216399028" method="get" target="_blank">
+        <label for="mensaje">Tu mensaje</label>
+        <textarea id="mensaje" name="text" rows="4" required>Hola, quiero hacer una consulta.</textarea>
+        <button class="boton" type="submit">Enviar por WhatsApp</button>
+      </form>
+      <div class="datos">
+        <a href="mailto:durante_3@gmail.com">durante_3@gmail.com</a>
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=Calle+476+735+City+Bell+La+Plata+Buenos+Aires" target="_blank" rel="noopener">Calle 476 N° 735, entre 14C y 15 — City Bell, La Plata</a>
+        <a href="https://www.instagram.com/ceramica_traru/" target="_blank" rel="noopener">@ceramica_traru en Instagram</a>
       </div>
     </div>
-  </section>
+  </main>
 
-  <!-- FOOTER (idéntico en todas las páginas) -->
-  <footer class="footer">
-    <div class="container footer-grid">
-      <div>
-        <a href="index.html" class="brand brand-foot">
-          <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
-            <ellipse cx="20" cy="14" rx="9" ry="3" fill="none" stroke="currentColor" stroke-width="1.2"/>
-            <path d="M11 14 C 11 26, 14 32, 20 33 C 26 32, 29 26, 29 14" fill="none" stroke="currentColor" stroke-width="1.2"/>
-          </svg>
-          <span class="brand-text">
-            <span class="brand-name">Traru</span>
-            <span class="brand-sub">cerámica viva</span>
-          </span>
-        </a>
-        <p class="footer-note">Taller independiente en City Bell. Cada pieza, una decisión.</p>
+  <footer class="pie">
+    <div class="pie-dentro">
+      <p class="pie-nombre">Traru Cerámica</p>
+      <div class="pie-datos">
+        <span>Calle 476 N° 735, City Bell, La Plata</span>
+        <a href="https://wa.me/5492216399028" target="_blank" rel="noopener">+54 9 221 639 9028</a>
+        <a href="mailto:durante_3@gmail.com">durante_3@gmail.com</a>
+        <a href="https://www.instagram.com/ceramica_traru/" target="_blank" rel="noopener">@ceramica_traru</a>
       </div>
-      <div>
-        <h4>Taller</h4>
-        <ul>
-          <li><a href="nosotros.html">Nosotros</a></li>
-          <li><a href="clases.html">Clases</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Comprar</h4>
-        <ul>
-          <li><a href="catalogo.html">Colección actual</a></li>
-          <li><a href="contacto.html">Pedidos a medida</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Contacto</h4>
-        <ul>
-          <li>Calle 476 N° 735, City Bell</li>
-          <li>La Plata, Buenos Aires</li>
-          <li><a href="mailto:durante_3@gmail.com">durante_3@gmail.com</a></li>
-          <li><a href="https://wa.me/5492216399028" target="_blank" rel="noopener">+54 9 221 639 9028</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="container footer-bot">
-      <span>© 2026 Traru Cerámica</span>
-      <span>Hecho con barro, agua y fuego.</span>
+      <small>© 2026 Traru Cerámica</small>
     </div>
   </footer>
-
-  <!-- TOAST -->
-  <div class="toast" id="toast" role="status" aria-live="polite"></div>
-
-  <script src="script.js?v=4"></script>
 </body>
 </html>

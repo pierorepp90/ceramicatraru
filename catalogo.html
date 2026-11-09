@@ -3,128 +3,58 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Catálogo — Traru Cerámica</title>
-  <meta name="description" content="Piezas de cerámica artesanal en venta esta temporada: series limitadas torneadas y esmaltadas a mano. Envíos a todo el país." />
+  <title>Piezas — Traru Cerámica</title>
+  <meta name="description" content="Objetos de cerámica, mayormente utilitarios, de Traru en City Bell, La Plata." />
   <link rel="canonical" href="https://ceramicatraru.com/catalogo.html" />
-  <meta property="og:title" content="Catálogo — Traru Cerámica" />
-  <meta property="og:description" content="Piezas únicas en venta: series limitadas torneadas y esmaltadas a mano." />
+  <meta property="og:title" content="Piezas — Traru Cerámica" />
+  <meta property="og:description" content="Objetos de cerámica, mayormente utilitarios, de Traru en City Bell, La Plata." />
   <meta property="og:url" content="https://ceramicatraru.com/catalogo.html" />
   <meta property="og:type" content="website" />
-
+  <meta property="og:image" content="https://ceramicatraru.com/fotos/compartir.jpg" />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
-
-  <link rel="stylesheet" href="styles.css?v=4" />
+  <link rel="stylesheet" href="styles.css?v=5" />
 </head>
 <body>
-
-  <!-- NAV (idéntico en todas las páginas; cambia sólo aria-current="page") -->
-  <header class="nav-wrap">
-    <nav class="nav glass" aria-label="Principal">
-      <a href="index.html" class="brand" aria-label="Traru — inicio">
-        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
-          <ellipse cx="20" cy="14" rx="9" ry="3" fill="none" stroke="currentColor" stroke-width="1.2"/>
-          <path d="M11 14 C 11 26, 14 32, 20 33 C 26 32, 29 26, 29 14" fill="none" stroke="currentColor" stroke-width="1.2"/>
-          <path d="M14 19 Q 20 21 26 19" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.6"/>
-        </svg>
-        <span class="brand-text">
-          <span class="brand-name">Traru</span>
-          <span class="brand-sub">cerámica</span>
-        </span>
-      </a>
-
-      <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="Abrir menú">
-        <span class="nav-toggle-bar"></span>
-        <span class="nav-toggle-bar"></span>
-      </button>
-
-      <ul class="nav-links" id="navLinks">
-        <li><a href="nosotros.html">Nosotros</a></li>
-        <li><a href="catalogo.html" aria-current="page">Catálogo</a></li>
+  <header class="cabecera">
+    <a class="marca" href="index.html"><img class="logo" src="logo.svg" alt="" width="36" height="36" />Traru <span>cerámica</span></a>
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="catalogo.html" aria-current="page">Piezas</a></li>
         <li><a href="clases.html">Clases</a></li>
+        <li><a href="pastas.html">Pastas</a></li>
         <li><a href="contacto.html">Contacto</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- ENCABEZADO -->
-  <section class="page-head">
-    <div class="container narrow">
-      <span class="eyebrow center">Colección curada</span>
-      <h1 class="display-sm">Piezas en venta<br/><em>esta temporada</em></h1>
-      <p class="lede">
-        Series limitadas torneadas y esmaltadas a mano. Envíos a todo el país;
-        las piezas únicas no se reponen. Tocá una pieza para ver el detalle.
-      </p>
+  <main class="pagina">
+    <div class="intro">
+      <h1>Piezas</h1>
+      <p>Piezas utilitarias en cerámica gres de alta temperatura, horneadas a más de 1200 °C. Escribinos para ver las piezas disponibles.</p>
+      <div class="acciones">
+        <a class="boton" href="https://wa.me/5492216399028?text=Hola%2C%20quiero%20ver%20las%20piezas%20disponibles." target="_blank" rel="noopener">Escribir por WhatsApp</a>
+        <a class="secundario" href="https://www.instagram.com/ceramica_traru/" target="_blank" rel="noopener">Ver piezas en Instagram</a>
+      </div>
     </div>
-  </section>
+    <div class="galeria">
+      <img class="foto" src="fotos/portada-1080.webp" srcset="fotos/portada-640.webp 640w, fotos/portada-1080.webp 1080w" sizes="(min-width: 760px) 480px, 50vw" width="1080" height="1240" alt="Pieza de cerámica torneada, con forma de copa, sobre una mesa de madera" loading="lazy" decoding="async" />
+      <img class="foto" src="fotos/tazas-960.webp" srcset="fotos/tazas-640.webp 640w, fotos/tazas-960.webp 960w" sizes="(min-width: 760px) 480px, 50vw" width="960" height="960" alt="Juego de tazas de cerámica visto desde arriba, sobre una mesa de madera" loading="lazy" decoding="async" />
+      <img class="foto" src="fotos/cuencos-960.webp" srcset="fotos/cuencos-640.webp 640w, fotos/cuencos-960.webp 960w" sizes="(min-width: 760px) 480px, 50vw" width="960" height="960" alt="Cuencos y un jarrón de cerámica esmaltada sobre una mesa" loading="lazy" decoding="async" />
+      <img class="foto" src="fotos/azules-1080.webp" srcset="fotos/azules-640.webp 640w, fotos/azules-1080.webp 1080w" sizes="(min-width: 760px) 480px, 50vw" width="1080" height="1080" alt="Dos cuencos de cerámica con esmalte azul sobre una mesa de madera" loading="lazy" decoding="async" />
+    </div>
+  </main>
 
-  <!-- COLECCIÓN -->
-  <section id="coleccion" class="coleccion coleccion--page">
-    <div class="container">
-      <div class="grid" id="productGrid">
-        <!-- piezas inyectadas por JS (Sanity o datos demo) -->
+  <footer class="pie">
+    <div class="pie-dentro">
+      <p class="pie-nombre">Traru Cerámica</p>
+      <div class="pie-datos">
+        <span>Calle 476 N° 735, City Bell, La Plata</span>
+        <a href="https://wa.me/5492216399028" target="_blank" rel="noopener">+54 9 221 639 9028</a>
+        <a href="mailto:durante_3@gmail.com">durante_3@gmail.com</a>
+        <a href="https://www.instagram.com/ceramica_traru/" target="_blank" rel="noopener">@ceramica_traru</a>
       </div>
-    </div>
-  </section>
-
-  <!-- FOOTER (idéntico en todas las páginas) -->
-  <footer class="footer">
-    <div class="container footer-grid">
-      <div>
-        <a href="index.html" class="brand brand-foot">
-          <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
-            <ellipse cx="20" cy="14" rx="9" ry="3" fill="none" stroke="currentColor" stroke-width="1.2"/>
-            <path d="M11 14 C 11 26, 14 32, 20 33 C 26 32, 29 26, 29 14" fill="none" stroke="currentColor" stroke-width="1.2"/>
-          </svg>
-          <span class="brand-text">
-            <span class="brand-name">Traru</span>
-            <span class="brand-sub">cerámica viva</span>
-          </span>
-        </a>
-        <p class="footer-note">Taller independiente en City Bell. Cada pieza, una decisión.</p>
-      </div>
-      <div>
-        <h4>Taller</h4>
-        <ul>
-          <li><a href="nosotros.html">Nosotros</a></li>
-          <li><a href="clases.html">Clases</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Comprar</h4>
-        <ul>
-          <li><a href="catalogo.html">Colección actual</a></li>
-          <li><a href="contacto.html">Pedidos a medida</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Contacto</h4>
-        <ul>
-          <li>Calle 476 N° 735, City Bell</li>
-          <li>La Plata, Buenos Aires</li>
-          <li><a href="mailto:durante_3@gmail.com">durante_3@gmail.com</a></li>
-          <li><a href="https://wa.me/5492216399028" target="_blank" rel="noopener">+54 9 221 639 9028</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="container footer-bot">
-      <span>© 2026 Traru Cerámica</span>
-      <span>Hecho con barro, agua y fuego.</span>
+      <small>© 2026 Traru Cerámica</small>
     </div>
   </footer>
-
-  <!-- DETAIL DIALOG -->
-  <dialog id="detailDialog" class="detail-dialog">
-    <div class="detail-inner" id="detailInner"></div>
-  </dialog>
-
-  <!-- TOAST -->
-  <div class="toast" id="toast" role="status" aria-live="polite"></div>
-
-  <script src="script.js?v=4"></script>
 </body>
 </html>
